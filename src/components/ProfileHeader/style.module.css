@@ -1,0 +1,39 @@
+.headerWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.logoWrapper {
+  margin-right: 60px;
+}
+
+@media (max-width: 768px) {
+  .logoWrapper {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+
+    background-color: #ffffff;
+
+    border-radius: 50%;
+  }
+
+  .buttonWrapper {
+    display: none;
+  }
+}

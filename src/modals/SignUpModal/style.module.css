@@ -1,0 +1,79 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  width: 366px;
+  height: 647px;
+  max-height: 100vh;
+  padding: 44px;
+
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.closeButton {
+  position: absolute;
+  right: 11px;
+  top: 32px;
+
+  cursor: pointer;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.input {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.05px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  width: 100%;
+  padding: 8px 0;
+
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.input::placeholder {
+  color: #d9d9d9;
+}
+
+.inputWrapper {
+  position: relative;
+
+  width: 100%;
+}
+
+.error {
+  position: absolute;
+  top: 40px;
+
+  font-size: 14px;
+  color: #ff6b6b;
+
+  height: 28px;
+  margin: 0;
+  padding-left: 2px;
+}
+
+.error span::before {
+  display: inline;
+  content: '⚠ ';
+}
+
+.lastInput {
+  margin-bottom: 9.3%;
+}
+
+.back {
+  top: 42px;
+}

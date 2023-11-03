@@ -1,0 +1,78 @@
+.logo {
+  align-self: center;
+  width: 120px;
+
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: stretch;
+
+  width: 100%;
+  padding-top: 95px;
+
+  box-sizing: border-box;
+}
+
+.inputs {
+  margin-bottom: 10px;
+}
+
+.inputRequired {
+  margin-bottom: 9px;
+}
+
+.input {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+
+  width: 100%;
+  min-height: 40px;
+
+  padding: 9px 17px;
+  box-sizing: border-box;
+
+  border: 1px solid #d9d9d9;
+  border-radius: 30px;
+
+  resize: none;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #009ee4;
+}
+
+.input::placeholder {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.error {
+  height: 14px;
+  margin: 0;
+  padding-left: 19px;
+
+  font-size: 10px;
+
+  color: #ff6b6b;
+}
+
+.error p {
+  margin: 0;
+}
+
+.error p::before {
+  display: inline;
+  content: '⚠ ';
+}

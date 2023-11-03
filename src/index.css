@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Stratos';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/public/assets/fonts/Stratos-Regular.woff2) format('woff2'),
+    url(/public/assets/fonts/Stratos-Regular.woff) format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: #000000;
+}

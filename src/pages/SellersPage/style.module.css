@@ -1,0 +1,133 @@
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 2.2;
+
+  color: #000000;
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 2.2;
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.backbtn {
+  display: none;
+}
+
+.sellersInfo {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 50px;
+  row-gap: 30px;
+
+  margin-bottom: 6px;
+  box-sizing: border-box;
+}
+
+.sellerAvatar {
+  grid-row: 1/3;
+}
+
+.sellersData {
+  min-height: 104px;
+}
+
+.sellerName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 2;
+
+  margin: 0;
+  padding: 0;
+}
+
+.sellerCity,
+.sellerDate {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 680px) {
+  .title {
+    font-size: 36px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 425px) {
+  .backbtn {
+    display: inline;
+    width: 10px;
+    padding-right: 23px;
+
+    cursor: pointer;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 1.2;
+
+    color: #000000;
+
+    padding-top: 85px;
+    margin-bottom: 30px;
+  }
+
+  .sellersInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .sellersData {
+    order: 0;
+    min-height: unset;
+    margin-bottom: 24px;
+  }
+
+  .sellerAvatar {
+    order: 1;
+    align-self: center;
+
+    max-width: 132px;
+
+    margin-bottom: 30px;
+  }
+
+  .phoneButton {
+    order: 2;
+  }
+
+  .sellerName,
+  .sellerCity,
+  .sellerDate {
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    line-height: 1;
+
+    margin-bottom: 30px;
+  }
+}

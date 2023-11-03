@@ -1,0 +1,44 @@
+.avatarBlockWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 20.38%;
+}
+
+.avatarBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.changeAvatar {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #009ee4;
+
+  cursor: pointer;
+}
+
+.changeAvatarInput {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  line-height: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 680px) {
+  .avatarBlockWrapper {
+    justify-self: center;
+
+    width: 100%;
+    max-width: 132px;
+    margin-bottom: 30px;
+  }
+}

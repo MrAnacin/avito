@@ -1,0 +1,13 @@
+.logo {
+  width: 54px;
+  height: 38px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 425px) {
+  .logo {
+    width: 20px;
+    height: 13px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,177 @@
+.title {
+  font-style: normal;
+  font-weight: 600;
+  /* font-weight: 500; */
+  font-size: 24px;
+  line-height: 1.2;
+
+  margin: 0;
+  margin-bottom: 30px;
+  padding-top: 85px;
+}
+
+.backbtn {
+  width: 10px;
+  padding-right: 23px;
+
+  cursor: pointer;
+}
+
+.label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+
+  margin: 0;
+  margin-left: 16px;
+  margin-bottom: 6px;
+  padding: 0;
+
+  transition: all 0.1s ease;
+}
+
+.inputWrapper:focus-within .label {
+  color: #009ee4;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: stretch;
+
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+.imgContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+}
+
+.inputRequired {
+  margin-bottom: 9px;
+}
+
+.input,
+.textArea {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+
+  width: 100%;
+  min-height: 40px;
+
+  padding: 9px 17px;
+  margin-top: 4px;
+  box-sizing: border-box;
+
+  border: 1px solid #d9d9d9;
+
+  resize: none;
+}
+
+.input {
+  border-radius: 30px;
+}
+
+.textArea {
+  min-height: 107px;
+  border-radius: 20px;
+}
+
+.input:focus,
+.textArea:focus,
+.textArea:hover {
+  outline: none;
+  border-color: #009ee4;
+}
+
+.input::placeholder,
+.textArea::placeholder {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.areaContent {
+  margin-bottom: 20px;
+}
+
+.textPhoto {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.limit {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.priceBlock {
+  margin-bottom: 20px;
+}
+
+.priceInput {
+  position: relative;
+}
+
+.price {
+  width: 200px;
+  padding-right: 35px;
+}
+
+.currency {
+  position: absolute;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  top: 13px;
+  right: 25px;
+}
+
+.imagesWrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+
+  margin-bottom: 10px;
+
+  overflow: hidden;
+}
+
+.error {
+  height: 10px;
+  margin: 0;
+  padding-left: 19px;
+
+  font-size: 10px;
+
+  color: #ff6b6b;
+}
+
+.error p {
+  margin: 0;
+}
+
+.error p::before {
+  display: inline;
+  content: '⚠ ';
+}

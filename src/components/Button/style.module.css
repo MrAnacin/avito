@@ -1,0 +1,155 @@
+/* COMMON STYLES */
+
+.button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-align: center;
+
+  min-height: 40px;
+  min-width: 158px;
+  padding: 13px 36px;
+
+  border-radius: 6px;
+  outline: none;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+/*  ACTION */
+
+.action {
+  color: #fff;
+  background-color: #009ee4;
+  border: 1px solid #009ee4;
+}
+
+.action:hover {
+  background-color: #0080c1;
+  border: 1px solid #0080c1;
+}
+
+.action:active {
+  background-color: #009ee4;
+  border: 1px solid #009ee4;
+}
+
+/* OUTLINED */
+
+.outlined {
+  color: #009ee4;
+  background-color: transparent;
+  border: 1px solid #009ee4;
+}
+
+.outlined:hover {
+  color: #0080c1;
+  border: 1px solid #0080c1;
+}
+
+.outlined:active {
+  color: #009ee4;
+  border: 1px solid #009ee4;
+}
+
+/* DISABLED */
+
+.disabled,
+.disabled:hover,
+.disabled:active {
+  color: #ffffff;
+  background-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+
+  transform: none;
+  cursor: default;
+}
+
+/* SECONDARY */
+
+.secondary {
+  color: #ffffff;
+
+  padding: 8px 24px;
+
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.secondary:active {
+  background-color: transparent;
+}
+
+/* SIZE */
+.xxl {
+  font-size: 18px;
+  line-height: 1.33;
+
+  width: 100%;
+  min-height: 52px;
+  padding: 10px 37px;
+}
+
+.xl {
+  font-size: 16px;
+  line-height: 1.5;
+
+  padding: 13px 37px;
+}
+
+.l {
+  font-size: 16px;
+  line-height: 1.4;
+
+  padding: 10px 37px;
+  width: 214px;
+}
+
+.m {
+  min-width: 158px;
+}
+
+.unset {
+  width: unset;
+  min-width: none;
+}
+
+@media (max-width: 1024px) {
+  .xl {
+    width: 100%;
+  }
+}
+
+@media (max-width: 680px) {
+  .button {
+    font-size: 14px;
+    padding: 11px 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .button {
+    font-size: 16px;
+    min-height: 46px;
+    padding: 11px 20px;
+    width: unset;
+  }
+
+  .l {
+    width: 100%;
+  }
+
+  .xxl {
+    font-size: 14px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.icon {
+  color: #d9d9d9;
+  stroke: currentcolor;
+
+  transition: all 0.25s ease;
+}
+
+.icon:hover {
+  color: #009ee4;
+}

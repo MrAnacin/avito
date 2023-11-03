@@ -1,0 +1,77 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logoWrapper {
+  margin-right: 60px;
+}
+
+.input {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+
+  padding: 13px 19px;
+  margin-right: 10px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  outline: none;
+}
+
+.input ::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .logoWrapper {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .input {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  .input {
+    font-size: 16px;
+
+    height: 32px;
+    margin-right: 0;
+
+    background: #ffffff;
+    border-radius: 30px;
+  }
+
+  .logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+
+    background-color: #ffffff;
+
+    border-radius: 50%;
+  }
+
+  .buttonWrapper {
+    display: none;
+  }
+}
